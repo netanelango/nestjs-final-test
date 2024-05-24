@@ -1,0 +1,9 @@
+{
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 24000,
+    "database": "nestjs-final-test-db",
+    "entities": ["src/user/**/*.entity.ts", "src/task/**/*.entity.ts"],
+    "synchronize": true
+  }
+  
